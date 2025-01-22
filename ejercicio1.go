@@ -3,7 +3,7 @@
                                     Ejercicio 1
 (Elaborar un programa que lea la cedula, nombre, venta y calcule el IVA (16%))
 
-Ejercicio realizado por: Victor Hugo De Abreu Pedrón
+Ejercicio realizado por: Víctor Hugo De Abreu Pedrón (V- 30.839.445)
 ################################################################################
 */
 
