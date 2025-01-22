@@ -1,6 +1,6 @@
 /*
 ################################################################################
-                                    Ejercicio 1
+Ejercicio 1
 (Elaborar un programa que lea la cedula, nombre, venta y calcule el IVA (16%))
 
 Ejercicio realizado por: Víctor Hugo De Abreu Pedrón (V- 30.839.445)
@@ -36,11 +36,11 @@ func main() {
 
 	// Imprimir resultado
 	fmt.Println("############################")
-	fmt.Println("* Nombre: ", nombre)
-	fmt.Println("* Cedula: V-", cedula)
-	fmt.Println("* Venta: ", venta, " Bs")
-	fmt.Println("* IVA: ", iva, " Bs")
+	fmt.Printf("* %-10s : %s\n", "Nombre", nombre)
+	fmt.Printf("* %-10s : V-%d\n", "Cedula", cedula)
 	fmt.Println("")
-	fmt.Println("* Precio final: ", venta+iva, " Bs")
+	fmt.Printf("* %-10s : %.2f Bs\n", "Venta", venta)
+	fmt.Printf("* %-10s :  %.2f Bs\n", "IVA (16%)", iva)
+	fmt.Printf("* %-10s : %.2f Bs\n", "Total", venta+iva)
 	fmt.Println("############################")
 }
