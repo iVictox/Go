@@ -1,4 +1,0 @@
-Texto en mayúsculas: HOLA
-
-Cantidad de caracteres: 5
-Número convertido: 5
