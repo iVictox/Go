@@ -137,7 +137,6 @@ func operaciones() {
 /* Main */
 
 func main() {
-	/* VARIABLES */
 	limpiarPantalla()
 	for {
 		fmt.Println("##########")
